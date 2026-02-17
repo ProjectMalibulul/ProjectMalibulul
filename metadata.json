@@ -1,0 +1,7 @@
+{
+  "name": "Malibulul Portfolio",
+  "description": "A high-end, professional front-page for the Malibulul GitHub organization, featuring team insights and project showcases.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}

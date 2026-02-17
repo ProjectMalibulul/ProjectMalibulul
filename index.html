@@ -66,17 +66,15 @@
       }
     }
     </script>
-<link rel="stylesheet" href="/index.css">
 </head>
 <body>
     <div id="root"></div>
 
     <!-- 
         APPLICATION LOGIC 
-        Inlined to prevent "MIME type" and "404" errors on GitHub Pages.
-        This script contains the entire source code for the landing page.
+        Converted to pure JavaScript (JSX) to ensure compatibility with Babel Standalone.
     -->
-    <script type="text/babel" data-type="module" data-presets="typescript,react">
+    <script type="text/babel" data-type="module" data-presets="react">
         import React, { useState, useEffect } from 'react';
         import ReactDOM from 'react-dom/client';
         import { GoogleGenAI } from "@google/genai";
@@ -89,29 +87,8 @@
             process.env = { API_KEY: '' };
         }
 
-        // --- TYPES ---
-        interface TeamMember {
-          name: string;
-          github: string;
-          role: string;
-          avatar: string;
-          specialty: string;
-        }
-        
-        interface Project {
-          title: string;
-          description: string;
-          tag: string;
-          stars?: number;
-        }
-
-        interface GroundingSource {
-            title: string;
-            uri: string;
-        }
-
         // --- CONSTANTS ---
-        const TEAM: TeamMember[] = [
+        const TEAM = [
           {
             name: "Prakyath Nayak",
             github: "PrakyathPNayak",
@@ -142,7 +119,7 @@
           }
         ];
 
-        const INITIAL_PROJECTS: Project[] = [
+        const INITIAL_PROJECTS = [
           {
             title: "Small Scale Web Utilities",
             description: "A collection of micro-tools designed for immediate public utility, ranging from converters to productivity scrapers.",
@@ -162,9 +139,8 @@
 
         // --- SERVICES ---
         class GeminiService {
-          private ai: GoogleGenAI | null = null;
-
           constructor() {
+            this.ai = null;
             // Access key safely
             const apiKey = window.process?.env?.API_KEY || process.env.API_KEY;
             if (apiKey && apiKey !== 'undefined' && apiKey !== '') {
@@ -188,7 +164,7 @@
               const cleanJson = text.replace(/```json|```/g, '').trim();
               const data = JSON.parse(cleanJson);
               
-              const sources = response.candidates?.[0]?.groundingMetadata?.groundingChunks?.map((chunk: any) => ({
+              const sources = response.candidates?.[0]?.groundingMetadata?.groundingChunks?.map((chunk) => ({
                 title: chunk.web?.title || 'GitHub Profile',
                 uri: chunk.web?.uri || '#'
               })) || [];
@@ -200,7 +176,7 @@
             }
           }
 
-          async generateGreeting(location?: { lat: number; lng: number }) {
+          async generateGreeting(location) {
             if (!this.ai) return "Architecting small tools for big change.";
             try {
               const prompt = location 
@@ -480,6 +456,5 @@
           );
         }
     </script>
-<script type="module" src="/index.tsx"></script>
 </body>
 </html>

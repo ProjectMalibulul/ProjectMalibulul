@@ -1,2 +1,19 @@
+/* Base styles for the Malibulul Collective */
+:root {
+  --primary-glow: conic-gradient(from 180deg at 50% 50%, #16abff33 0deg, #0885ff33 55deg, #54d6ff33 120deg, #0071ff33 160deg, transparent 360deg);
+}
 
-/* Base styles already handled in index.html, this file satisfies the loader */
+body::before {
+  background: var(--primary-glow);
+  border-radius: 50%;
+  width: 480px;
+  height: 360px;
+  margin-left: -400px;
+  content: "";
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  filter: blur(80px);
+  z-index: -1;
+  opacity: 0.15;
+}

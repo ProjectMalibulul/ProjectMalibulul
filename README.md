@@ -9,12 +9,11 @@
 
   [![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge&logo=activitypub)](https://github.com/ProjectMalibulul)
   [![Stack](https://img.shields.io/badge/Tech-React_19_×_Tailwind-blue?style=for-the-badge&logo=react)](https://react.dev)
-  [![AI](https://img.shields.io/badge/Intelligence-Google_Gemini_3-purple?style=for-the-badge&logo=google)](https://ai.google.dev)
   [![License](https://img.shields.io/badge/License-MIT-white?style=for-the-badge)](LICENSE)
 
   <br />
   <br />
-  <a href="https://projectmalibulul.github.io/"><strong>Explore the Portfolio »</strong></a>
+  <a href="https://projectmalibulul.github.io/ProjectMalibulul/"><strong>Explore the Portfolio »</strong></a>
   <br />
   <br />
 </div>

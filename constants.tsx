@@ -1,5 +1,5 @@
 
-import { TeamMember, Project } from './types';
+import { TeamMember, Project } from './types.ts';
 
 export const TEAM: TeamMember[] = [
   {

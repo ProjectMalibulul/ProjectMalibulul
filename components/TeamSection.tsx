@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { TEAM } from '../constants';
+import { TEAM } from '../constants.tsx';
 
 const TeamSection: React.FC = () => {
   return (

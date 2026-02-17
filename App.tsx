@@ -1,9 +1,9 @@
 
 import React from 'react';
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import TeamSection from './components/TeamSection';
-import ProjectShowcase from './components/ProjectShowcase';
+import Navbar from './components/Navbar.tsx';
+import Hero from './components/Hero.tsx';
+import TeamSection from './components/TeamSection.tsx';
+import ProjectShowcase from './components/ProjectShowcase.tsx';
 
 const App: React.FC = () => {
   return (

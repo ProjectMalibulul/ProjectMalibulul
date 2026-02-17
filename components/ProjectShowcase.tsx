@@ -1,8 +1,8 @@
 
 import React, { useEffect, useState } from 'react';
-import { GeminiService } from '../services/geminiService';
-import { INITIAL_PROJECTS } from '../constants';
-import { GroundingSource } from '../types';
+import { GeminiService } from '../services/geminiService.ts';
+import { INITIAL_PROJECTS } from '../constants.tsx';
+import { GroundingSource } from '../types.ts';
 
 const ProjectShowcase: React.FC = () => {
   const [inferredData, setInferredData] = useState<any>(null);

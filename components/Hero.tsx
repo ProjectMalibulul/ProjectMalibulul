@@ -1,6 +1,6 @@
 
 import React, { useEffect, useState } from 'react';
-import { GeminiService } from '../services/geminiService';
+import { GeminiService } from '../services/geminiService.ts';
 
 const Hero: React.FC = () => {
   const [greeting, setGreeting] = useState("Architecting small tools for big change.");

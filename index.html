@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,6 +12,7 @@
             font-family: 'Plus Jakarta Sans', sans-serif;
             background-color: #050505;
             color: #ffffff;
+            margin: 0;
             overflow-x: hidden;
         }
         .mono {
@@ -26,6 +28,21 @@
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
+        /* Glow Effect */
+        body::before {
+            background: conic-gradient(from 180deg at 50% 50%, #16abff33 0deg, #0885ff33 55deg, #54d6ff33 120deg, #0071ff33 160deg, transparent 360deg);
+            border-radius: 50%;
+            width: 480px;
+            height: 360px;
+            margin-left: -400px;
+            content: "";
+            position: absolute;
+            top: 10%;
+            left: 50%;
+            filter: blur(80px);
+            z-index: -1;
+            opacity: 0.15;
+        }
         @keyframes float {
             0% { transform: translateY(0px); }
             50% { transform: translateY(-20px); }
@@ -35,7 +52,7 @@
             animation: float 6s ease-in-out infinite;
         }
     </style>
-    <!-- Babel standalone allows the browser to understand .tsx files without a build step -->
+    <!-- Babel standalone for browser-side TSX support -->
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
     <script type="importmap">
 {
@@ -44,15 +61,35 @@
     "react": "https://esm.sh/react@19.2.4",
     "react-dom/client": "https://esm.sh/react-dom@19.2.4/client",
     "react/jsx-runtime": "https://esm.sh/react@19.2.4/jsx-runtime",
-    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
     "react/": "https://esm.sh/react@^19.2.4/"
   }
 }
 </script>
+<link rel="stylesheet" href="/index.css">
 </head>
 <body>
     <div id="root"></div>
-    <!-- Explicitly load the entry point. GitHub Pages needs the ./ prefix -->
-    <script type="text/babel" data-type="module" src="./index.tsx"></script>
+    
+    <!-- 
+      Bypassing GitHub Pages MIME check: 
+      Inlining the entry point code so it doesn't fetch index.tsx as a native module.
+      Babel then fetches the components as text, which works perfectly on any server.
+    -->
+    <script type="text/babel" data-type="module" data-presets="typescript,react">
+        import React from 'react';
+        import ReactDOM from 'react-dom/client';
+        import App from './App.tsx';
+
+        const rootElement = document.getElementById('root');
+        if (rootElement) {
+          const root = ReactDOM.createRoot(rootElement);
+          root.render(
+            <React.StrictMode>
+              <App />
+            </React.StrictMode>
+          );
+        }
+    </script>
+<script type="module" src="/index.tsx"></script>
 </body>
 </html>

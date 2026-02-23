@@ -1,56 +1,161 @@
 
 <div align="center">
-  <br />
-  <h1>🌊 Project Malibulul</h1>
-  <h3>Small Scale. Big Impact.</h3>
-  <p>
-    <em>A digital collective of engineers architecting high-utility, open-source software for the public domain.</em>
-  </p>
 
-  [![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge&logo=activitypub)](https://github.com/ProjectMalibulul)
-  [![Stack](https://img.shields.io/badge/Tech-React_19_×_Tailwind-blue?style=for-the-badge&logo=react)](https://react.dev)
-  [![License](https://img.shields.io/badge/License-MIT-white?style=for-the-badge)](LICENSE)
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:020617,50:f59e0b,100:facc15&height=160&section=footer"/>
 
-  <br />
-  <br />
-  <a href="https://projectmalibulul.github.io/ProjectMalibulul/"><strong>Explore the Portfolio »</strong></a>
-  <br />
-  <br />
+
+
+
+<br>
+<br>
+
+
+<img src="assets/Malibulul.png" width="160"/>
+
+<br><br>
+
+<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=34&duration=3500&pause=1200&color=FACC15&center=true&vCenter=true&width=800&lines=PROJECT+MALIBULUL;PRECISION+ENGINEERED+SYSTEMS;OPEN+SOURCE+COLLECTIVE"/>
+
+<br>
+
+
+<img src="https://img.shields.io/badge/SYSTEM-ONLINE-facc15?style=for-the-badge&labelColor=020617"/>
+<img src="https://img.shields.io/badge/COLLECTIVE-ACTIVE-facc15?style=for-the-badge&labelColor=020617"/>
+<img src="https://img.shields.io/badge/INFRASTRUCTURE-STABLE-facc15?style=for-the-badge&labelColor=020617"/>
+
+<br><br>
+
+<a href="https://github.com/ProjectMalibulul">
+<img src="https://img.shields.io/badge/ENTER_INTERFACE-facc15?style=for-the-badge&labelColor=020617"/>
+</a>
+
 </div>
 
----
 
-## 📖 About The Collective
 
-**Project Malibulul** is not just a GitHub organization; it is an engineering philosophy. We believe that the most profound software solutions often address the smallest, most frequent friction points in daily digital life.
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:facc15,100:f59e0b&height=4"/>
+</div>
 
-This repository hosts our public-facing portfolio, a dynamic single-page application (SPA) that leverages **Generative AI** to analyze our ongoing work and present it to the world.
+# CORE INTERFACE
 
-### The Core Pillars
-*   **Utility First:** We build tools that are immediately useful.
-*   **Open Automation:** We streamline community management and workflows.
-*   **Knowledge Transfer:** We document the path for the next generation of developers.
+<div align="center">
 
----
+<table>
+<tr>
+<td width="750">
 
-## 👥 The Architects
 
-We are a distributed team of specialists, each bringing a unique vertical to the collective.
+Project Malibulul is a precision digital engineering collective.
+
+We build high-utility open systems designed for performance,
+clarity, and long-term scalability.
+
+Minimal form. Maximum function.
+
+
+</td>
+</tr>
+</table>
+
+</div>
+
+
+
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:facc15,100:f59e0b&height=4"/>
+</div>
+
+# SYSTEM ENGINES
+
+<div align="center">
+
+<table>
+<tr>
+
+<td width="250">
+
+
+UTILITY_ENGINE
+
+Solve real problems
+Deliver real value
+Enable workflows
+
+
+</td>
+
+<td width="250">
+
+
+AUTOMATION_ENGINE
+
+Remove friction
+Increase efficiency
+Scale infinitely
+
+
+</td>
+
+<td width="250">
+
+
+KNOWLEDGE_ENGINE
+
+Document systems
+Share architecture
+Enable builders
+
+
+</td>
+
+</tr>
+</table>
+
+</div>
+
+
+
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:facc15,100:f59e0b&height=4"/>
+</div>
+
+# LIVE METRICS
+
+<div align="center">
+
+<img height="180" src="https://github-readme-stats.vercel.app/api?username=ProjectMalibulul&show_icons=true&theme=transparent&hide_border=true&title_color=facc15&text_color=d4d4d8&icon_color=facc15"/>
+
+<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ProjectMalibulul&layout=compact&theme=transparent&hide_border=true&title_color=facc15&text_color=d4d4d8"/>
+
+<br>
+
+<img src="https://komarev.com/ghpvc/?username=ProjectMalibulul&style=for-the-badge&color=facc15"/>
+
+</div>
+
+
+
+# The Architects
+<div align="center">
+
+<br>
+Each of us operates within a specialized vertical, but together, we design, secure, automate, and refine the living structure of our platform.
+<br>
+<br>
 
 | Profile | Role | Specialty |
 |:---:|:---:|:---|
-| [<img src="https://github.com/PrakyathPNayak.png" width="50" style="border-radius:50%"/>](https://github.com/PrakyathPNayak) | **Prakyath Nayak** | **Full Stack Architecture** <br> Cloud Infrastructure & Systems Design |
-| [<img src="https://github.com/Cyberknp.png" width="50" style="border-radius:50%"/>](https://github.com/Cyberknp) | **CyberKNP** | **Security & Backend** <br> Network Logic & Data Integrity |
-| [<img src="https://github.com/Lazy-picker.png" width="50" style="border-radius:50%"/>](https://github.com/Lazy-picker) | **Lazy Picker** | **Automation Lead** <br> DevOps & Workflow Efficiency |
-| [<img src="https://github.com/Akshara026.png" width="50" style="border-radius:50%"/>](https://github.com/Akshara026) | **Akshara** | **UI/UX & Frontend** <br> Interactive Design & User Experience |
+| [<img src="https://github.com/PrakyathPNayak.png" width="50" style="border-radius:50%"/>](https://github.com/PrakyathPNayak) | *Prakyath Nayak* | *Full Stack Architecture* <br> Cloud Infrastructure & Systems Design |
+| [<img src="https://github.com/Cyberknp.png" width="50" style="border-radius:50%"/>](https://github.com/Cyberknp) | *CyberKNP* | *Security & Backend* <br> Network Logic & Data Integrity |
+| [<img src="https://github.com/Lazy-picker.png" width="50" style="border-radius:50%"/>](https://github.com/Lazy-picker) | *Lazy Picker* | *Automation Lead* <br> DevOps & Workflow Efficiency |
+| [<img src="https://github.com/Akshara026.png" width="50" style="border-radius:50%"/>](https://github.com/Akshara026) | *Akshara* | *UI/UX & Frontend* <br> Interactive Design & User Experience |
 
----
+<div>
 
-## 📄 License
 
-Distributed under the MIT License. See `LICENSE` for more information.
 
 <div align="center">
-  <br />
-  <p><em>Built with 💻 and ☕ by the Malibulul Collective.</em></p>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:020617,50:f59e0b,100:facc15&height=160&section=footer"/>
 </div>
+

@@ -25,8 +25,8 @@
 
 <br><br>
 
-<a href="https://github.com/ProjectMalibulul">
-<img src="https://img.shields.io/badge/ENTER_INTERFACE-facc15?style=for-the-badge&labelColor=020617"/>
+<a href="https://projectmalibulul.github.io/ProjectMalibulul/">
+<img src="https://img.shields.io/badge/ENTER_PORTFOLLIO-facc15?style=for-the-badge&labelColor=020617"/>
 </a>
 
 </div>
